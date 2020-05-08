@@ -1,0 +1,11 @@
+
+	比如我要下载vue的官方文档;
+
+	1. 先全局下载sgo sgo可查找本地文档 npm install sgo -g
+	
+	2. 然后将 
+git clone https://github.com/vuejs/cn.vuejs.org.git --depth 1 -b gh-pages
+
+	将文件克隆到本地;
+
+	3. sgo --fallback cn.vuejs.org 即可访问其 离线文档; 
